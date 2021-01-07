@@ -1,0 +1,93 @@
+/* Style the navigation menu */
+body {
+    font: 600 14px/24px "Open Sans", 
+       "HelveticaNeue-Light", 
+       "Helvetica Neue Light", 
+       "Helvetica Neue", 
+       Helvetica, Arial, 
+       "Lucida Grande", 
+       Sans-Serif;
+ }
+ h1 {
+    color: #9799a7;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+ }
+ .container:before, .container:after {
+    content: "";
+    display: table;
+ }
+ .container:after {
+    clear: both;
+ }
+ .container {
+    background: #eaeaed;
+    margin-bottom: 24px;
+    *zoom: 1;
+ }
+ .container-75 {
+    width: 75%;
+ }
+ .container-50 {
+    margin-bottom: 0;
+    width: 50%;
+ }
+ .container, section, aside {
+    border-radius: 6px;
+ }
+ section, aside {
+    background: #2db34a;
+    color: #fff;
+    margin: 1.858736059%;
+    padding: 20px 0;
+    text-align: center;
+ }
+ section {
+    float: left;
+    width: 63.197026%;
+ }
+ aside {
+    float: right;
+    width: 29.3680297%;
+ }
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
